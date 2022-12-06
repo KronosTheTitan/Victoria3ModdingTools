@@ -1,0 +1,15 @@
+D:\02 GameDev\Victoria3 Expanded Names bot\Victoria3 Expanded Names bot\bin\Debug\net6.0\Victoria3 Expanded Names bot.exe
+D:\02 GameDev\Victoria3 Expanded Names bot\Victoria3 Expanded Names bot\bin\Debug\net6.0\Victoria3 Expanded Names bot.deps.json
+D:\02 GameDev\Victoria3 Expanded Names bot\Victoria3 Expanded Names bot\bin\Debug\net6.0\Victoria3 Expanded Names bot.runtimeconfig.json
+D:\02 GameDev\Victoria3 Expanded Names bot\Victoria3 Expanded Names bot\bin\Debug\net6.0\Victoria3 Expanded Names bot.dll
+D:\02 GameDev\Victoria3 Expanded Names bot\Victoria3 Expanded Names bot\bin\Debug\net6.0\Victoria3 Expanded Names bot.pdb
+D:\02 GameDev\Victoria3 Expanded Names bot\Victoria3 Expanded Names bot\obj\Debug\net6.0\Victoria3 Expanded Names bot.csproj.AssemblyReference.cache
+D:\02 GameDev\Victoria3 Expanded Names bot\Victoria3 Expanded Names bot\obj\Debug\net6.0\Victoria3 Expanded Names bot.GeneratedMSBuildEditorConfig.editorconfig
+D:\02 GameDev\Victoria3 Expanded Names bot\Victoria3 Expanded Names bot\obj\Debug\net6.0\Victoria3 Expanded Names bot.AssemblyInfoInputs.cache
+D:\02 GameDev\Victoria3 Expanded Names bot\Victoria3 Expanded Names bot\obj\Debug\net6.0\Victoria3 Expanded Names bot.AssemblyInfo.cs
+D:\02 GameDev\Victoria3 Expanded Names bot\Victoria3 Expanded Names bot\obj\Debug\net6.0\Victoria3 Expanded Names bot.csproj.CoreCompileInputs.cache
+D:\02 GameDev\Victoria3 Expanded Names bot\Victoria3 Expanded Names bot\obj\Debug\net6.0\Victoria3 Expanded Names bot.dll
+D:\02 GameDev\Victoria3 Expanded Names bot\Victoria3 Expanded Names bot\obj\Debug\net6.0\refint\Victoria3 Expanded Names bot.dll
+D:\02 GameDev\Victoria3 Expanded Names bot\Victoria3 Expanded Names bot\obj\Debug\net6.0\Victoria3 Expanded Names bot.pdb
+D:\02 GameDev\Victoria3 Expanded Names bot\Victoria3 Expanded Names bot\obj\Debug\net6.0\Victoria3 Expanded Names bot.genruntimeconfig.cache
+D:\02 GameDev\Victoria3 Expanded Names bot\Victoria3 Expanded Names bot\obj\Debug\net6.0\ref\Victoria3 Expanded Names bot.dll

@@ -1,0 +1,111 @@
+﻿BRZ = { # Brazil	
+	dynamic_country_name = {
+		name = dyn_c_BRZ_theocracy
+		adjective = dyn_c_BRZ_theocracy_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			coa_def_theocracy_flag_trigger = yes
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_BRZ_monarchy
+		adjective = dyn_c_BRZ_monarchy_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			AND = {
+				OR = {
+					coa_def_absolute_monarchy_flag_trigger = yes
+					coa_def_undemocratic_monarchy_flag_trigger = yes
+					coa_def_monarchy_flag_trigger = yes
+				}
+				scope:actor = {
+					NOT = {
+						is_country_type = decentralized
+					}
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_BRZ_fascist
+		adjective = dyn_c_BRZ_fascist_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			coa_def_fascist_flag_trigger = yes
+		}
+	}
+
+	dynamic_country_name = {
+		name = dyn_c_BRZ_dictatorship
+		adjective = dyn_c_BRZ_dictatorship_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			coa_def_dictatorship_flag_trigger = yes
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_BRZ_junta
+		adjective = dyn_c_BRZ_junta_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			coa_def_military_junta_flag_trigger = yes
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_BRZ_communist
+		adjective = dyn_c_BRZ_communist_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			coa_def_communist_flag_trigger = yes
+		}
+	}
+
+	dynamic_country_name = {
+		name = dyn_c_BRZ_republic
+		adjective = dyn_c_BRZ_republic_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			AND = {
+				coa_def_republic_flag_trigger = yes
+				coa_def_anarchy_flag_trigger = no
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_BRZ_anarchy
+		adjective = dyn_c_BRZ_anarchy_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			coa_def_anarchy_flag_trigger = yes
+		}
+	}
+}

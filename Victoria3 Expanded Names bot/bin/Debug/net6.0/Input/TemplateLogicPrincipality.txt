@@ -1,0 +1,270 @@
+## Only Sudan (SUD) is a decentralized kingdom ##
+
+### Template for Kingdoms ###
+AAA = { # Template
+	dynamic_country_name = {
+		name = dyn_c_AAA_theocratic_dictatorship
+		adjective = dyn_c_AAA_theocratic_dictatorship_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			scope:actor = {
+				has_government_type = gov_theocratic_dictatorship
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_AAA_theocratic_democracy
+		adjective = dyn_c_AAA_theocratic_democracy_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			scope:actor = {
+				OR = {
+					has_government_type = gov_theocratic_democracy
+					has_government_type = gov_theocratic_oligarchy
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_AAA_kingdom
+		adjective = dyn_c_AAA_kingdom_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			scope:actor = {
+				OR = {
+					has_government_type = gov_kingdom
+					has_government_type = gov_feudal_kingdom
+					has_government_type = gov_absolute_kingdom
+					has_government_type = gov_constitutional_kingdom
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_AAA_communist
+		adjective = dyn_c_AAA_communist_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			coa_def_communist_flag_trigger = yes
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_AAA_fascist_state
+		adjective = dyn_c_AAA_fascist_state_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			scope:actor = {
+				has_government_type = gov_fascist_state
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_AAA_democracy
+		adjective = dyn_c_AAA_democracy_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			scope:actor = {
+				OR = {
+					has_government_type = gov_presidential_democracy
+					has_government_type = gov_parliamentary_democracy
+					has_government_type = gov_council_republic
+					has_government_type = gov_presidential_oligarchy
+					has_government_type = gov_parliamentary_oligarchy
+					has_government_type = gov_presidential_dictatorship
+					has_government_type = gov_parliamentary_dictatorship
+					has_government_type = gov_council_dictatorship
+					has_government_type = gov_banana_republic
+					has_government_type = gov_military_dictatorship
+					has_government_type = gov_junta
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_AAA_anarchist_commune
+		adjective = dyn_c_AAA_anarchist_commune_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			scope:actor = {
+				has_government_type = gov_anarchist_commune
+			}
+		}
+	}
+}
+	
+### Template for Principalities ###
+AAA = { # Template
+	dynamic_country_name = {
+		name = dyn_c_AAA_decentralized
+		adjective = dyn_c_AAA_decentralized_ADJ
+
+		is_main_tag_only = yes
+		priority = 1
+		
+		trigger = {
+			scope:actor = {
+				is_country_type = decentralized
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_AAA_theocratic_dictatorship
+		adjective = dyn_c_AAA_theocratic_dictatorship_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			scope:actor = {
+				has_government_type = gov_theocratic_dictatorship
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_AAA_theocratic_democracy
+		adjective = dyn_c_AAA_theocratic_democracy_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			scope:actor = {
+				OR = {
+					has_government_type = gov_theocratic_democracy
+					has_government_type = gov_theocratic_oligarchy
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_AAA_duchy
+		adjective = dyn_c_AAA_duchy_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			scope:actor = {
+				OR = {
+					has_government_type = gov_duchy
+					has_government_type = gov_absolute_duchy
+					has_government_type = gov_constitutional_duchy
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_AAA_principality
+		adjective = dyn_c_AAA_principality_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			scope:actor = {
+				OR = {
+					has_government_type = gov_principality
+					has_government_type = gov_absolute_principality
+					has_government_type = gov_constitutional_principality
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_AAA_communist
+		adjective = dyn_c_AAA_communist_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			coa_def_communist_flag_trigger = yes
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_AAA_fascist_state
+		adjective = dyn_c_AAA_fascist_state_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			scope:actor = {
+				has_government_type = gov_fascist_state
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_AAA_democracy
+		adjective = dyn_c_AAA_democracy_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			scope:actor = {
+				OR = {
+					has_government_type = gov_presidential_democracy
+					has_government_type = gov_parliamentary_democracy
+					has_government_type = gov_council_republic
+					has_government_type = gov_presidential_oligarchy
+					has_government_type = gov_parliamentary_oligarchy
+					has_government_type = gov_presidential_dictatorship
+					has_government_type = gov_parliamentary_dictatorship
+					has_government_type = gov_council_dictatorship
+					has_government_type = gov_banana_republic
+					has_government_type = gov_military_dictatorship
+					has_government_type = gov_junta
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_AAA_anarchist_commune
+		adjective = dyn_c_AAA_anarchist_commune_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			scope:actor = {
+				has_government_type = gov_anarchist_commune
+			}
+		}
+	}
+}
